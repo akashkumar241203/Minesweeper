@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="full-container">
+        <div class="home-container">
+            <h1 class="game-name">Minesweeper 💎</h1>
+            <button class="start-btn">START GAME</button>
+        </div>
+    
+        <div class="main-container">
+            <div id="board">
+                <div class="navbar">
+                        <div class="levels">
+                            <select name="levels" id="levels">
+                                <option value="easy">Easy</option>
+                                <option value="medium">Medium</option>
+                                <option value="hard">Hard</option>
+                            </select>
+                        </div>
+        
+                        <div class="flag">
+                            🚩 <span class="flagCnt">5</span>
+                        </div>
+        
+                        <div class="cheat-mode">
+                            <button class="cheat-mode-btn">Cheat Mode : <span class="cheatToggle">Off</span></button>
+                        </div>
+        
+                        <div class="close">
+                            <button class="close-btn">X</button>
+                        </div>
+                </div>
+                <div class="playground">
+                    <!-- Genaration of table -->
+                </div>
+            </div>
+            <!-- <button id="reset">Reset Game</button> -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
