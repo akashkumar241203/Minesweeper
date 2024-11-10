@@ -67,8 +67,8 @@ body {
 }
 
 #board {
-    width: 650px;
-    height: 650px;
+    width: 550px;
+    height: 550px;
     display: flex;
     flex-direction: column;
 }
